@@ -1,4 +1,3 @@
-# github.com/gin-gonic/gin v0.0.0-20150626140855-4cc2de6207f4
 github.com/gin-gonic/gin
 github.com/gin-gonic/gin/binding
 github.com/gin-gonic/gin/render

@@ -18,6 +18,6 @@ require (
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/bluesuncorp/validator.v5 v5.9.1 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
-	gorm.io/driver/postgres v1.0.0 // indirect
-	gorm.io/gorm v1.20.0 // indirect
+	gorm.io/driver/postgres v1.0.0
+	gorm.io/gorm v1.20.0
 )
