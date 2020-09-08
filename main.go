@@ -25,7 +25,8 @@ type Camera struct {
 }
 
 func main() {
-db, err := gorm.Open(postgres.Open("user=postgres password=postgres port=5432 sslmode=disable"), &gorm.Config{})
+	db_url := os.Getenv("DATABASE_URL")
+db, err := gorm.Open(postgres.Open(&db_url), &gorm.Config{})
 	if err != nil {
 		panic("failed to connect to database")
 	}
